@@ -1,5 +1,5 @@
 package org.firstinspires.ftc.teamcode.systems;
 
-public class TeleOpUtils {
+public class TeleOpUtils extends DriveTrain {
 
 }
