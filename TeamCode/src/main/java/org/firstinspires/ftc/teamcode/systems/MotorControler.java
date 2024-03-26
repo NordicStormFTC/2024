@@ -24,6 +24,4 @@ public class MotorControler {
         return targetPos;
     }
 
-    instantiat motor controller - pass pid Coefficiants - set the pid coeficiants
-
 }
