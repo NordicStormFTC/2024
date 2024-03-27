@@ -19,10 +19,4 @@ public class DriveTrain  {
     public static void rotate(){
 
     }
-
-    public static void set(DcMotorEx motor, double target){
-
-    }
-
-
 }

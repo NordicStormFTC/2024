@@ -12,12 +12,12 @@ public class Hardware {
     public static Gamepad ethan = new Gamepad();
     public static Gamepad mica = new Gamepad();
 
-    static DcMotorEx frontLeft;
-    static DcMotorEx frontRight;
-    static DcMotorEx backLeft;
-    static DcMotorEx backRight;
+    public DcMotorEx frontLeft;
+    public DcMotorEx frontRight;
+    public DcMotorEx backLeft;
+    public DcMotorEx backRight;
 
-    public static  void initHardware(HardwareMap hardwareMap, LinearOpMode opMode){
+    public void initHardware(HardwareMap hardwareMap, LinearOpMode opMode){
 
         frontLeft = (DcMotorEx) hardwareMap.get(DcMotor.class, "1");
         frontRight = (DcMotorEx) hardwareMap.get(DcMotor.class, "2");
