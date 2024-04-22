@@ -4,6 +4,8 @@ import com.qualcomm.robotcore.hardware.DcMotorEx;
 
 public class DriveTrain  {
 
+    public static double ticksPerFoot;
+
     public void drive(){
 
     }

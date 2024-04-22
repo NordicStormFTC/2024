@@ -12,13 +12,17 @@ public class Hardware {
     public static Gamepad ethan = new Gamepad();
     public static Gamepad mica = new Gamepad();
 
-    public DcMotorEx frontLeft;
-    public DcMotorEx frontRight;
-    public DcMotorEx backLeft;
-    public DcMotorEx backRight;
+    Gyro gyro = new Gyro();
+
+
+    public static DcMotorEx frontLeft;
+    public static DcMotorEx frontRight;
+    public static DcMotorEx backLeft;
+    public static DcMotorEx backRight;
 
     public void initHardware(HardwareMap hardwareMap, LinearOpMode opMode){
 
+        gyro.initialize();
         frontLeft = (DcMotorEx) hardwareMap.get(DcMotor.class, "1");
         frontRight = (DcMotorEx) hardwareMap.get(DcMotor.class, "2");
         backLeft = (DcMotorEx) hardwareMap.get(DcMotor.class, "3");

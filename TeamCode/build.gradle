@@ -26,4 +26,6 @@ android {
 dependencies {
     implementation project(':FtcRobotController')
     annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
+
+    implementation 'org.openftc:opencv-repackaged-bundleddylibs:4.7.0-A'
 }

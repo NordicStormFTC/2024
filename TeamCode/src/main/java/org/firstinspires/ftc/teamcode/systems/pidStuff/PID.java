@@ -42,8 +42,7 @@ public class PID {
     }
 
     private double derivative(DcMotorEx motor){
-        final double posStamp = motor.getCurrentPosition();
-        double x = posStamp;
+        final double x = motor.getCurrentPosition();
         dtime.reset();
         double now = System.currentTimeMillis();
         double dx = motor.getCurrentPosition() - x;
