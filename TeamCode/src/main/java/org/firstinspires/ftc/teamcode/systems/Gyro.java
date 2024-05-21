@@ -1,6 +1,6 @@
 package org.firstinspires.ftc.teamcode.systems;
 
-public class Gyro extends Hardware {
+public class Gyro {
 
     public Gyro(){
 
