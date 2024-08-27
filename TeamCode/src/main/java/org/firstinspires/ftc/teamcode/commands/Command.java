@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.systems.commands;
+package org.firstinspires.ftc.teamcode.commands;
 
 public interface Command {
 

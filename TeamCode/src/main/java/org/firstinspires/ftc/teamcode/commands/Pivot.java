@@ -1,8 +1,9 @@
-package org.firstinspires.ftc.teamcode.systems.commands;
+package org.firstinspires.ftc.teamcode.commands;
 
-public class Thing implements Command {
 
-    public Thing(){
+public class Pivot implements Command {
+
+    public Pivot(double degrees){
 
     }
     @Override
@@ -24,5 +25,4 @@ public class Thing implements Command {
     public void end() {
 
     }
-
 }

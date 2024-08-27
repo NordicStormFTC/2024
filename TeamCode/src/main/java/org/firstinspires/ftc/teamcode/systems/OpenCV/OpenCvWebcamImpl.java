@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.OpenCV;
+package org.firstinspires.ftc.teamcode.systems.OpenCV;
 
 import android.annotation.SuppressLint;
 import android.graphics.ImageFormat;

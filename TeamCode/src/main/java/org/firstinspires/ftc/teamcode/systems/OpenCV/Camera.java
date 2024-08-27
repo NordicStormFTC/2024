@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.OpenCV;
+package org.firstinspires.ftc.teamcode.systems.OpenCV;
 
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
